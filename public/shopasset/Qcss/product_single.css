@@ -1,0 +1,156 @@
+ .navbar-brand:hover, .navbar-brand:focus {
+    text-decoration: none; }
+/*menu menu*/
+.navbar-default{
+  padding: 10px 0;
+  background-color: #f5e6e6;
+ /* background-image: url("../images/logo-header.png");
+  background-size: 100%;*/
+}
+ .navbar-default  li:hover{
+  background-color: #fdd1d1 !important;
+ }
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+  background-color: #fdd1d1 !important;
+ }
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+   background-color: #fdd1d1 !important;
+ }
+ .open{
+  background-color: #fdd1d1 !important;
+ }
+.navbar-header{
+  width: 100%;
+  padding-bottom: 10px;
+}
+.dropdown-menu{
+  width:100%;
+}
+.dropdown-menu>li>a {
+    font-size: 15px;
+   }
+   .navbar-default .navbar-nav>li>a {
+    font-size:15px;
+     color:#8c6c53 ;
+    text-decoration: none;
+      
+   }
+    .navbar-brand{
+      padding: 0 !important;
+      width: 60%;
+      
+    } .navbar-brand>img {
+      width: 100%;
+      margin: 0 auto;height:60px;
+    }
+    .navbar-nav{width:100%;}
+    .navbar-nav>li {
+      float: left;
+      width: 15%;text-align: center;
+    }
+    .aa{
+      width:25% !important;
+    }
+    .divider{
+      margin:0 !important;
+    }
+    .dropdown-menu{
+      padding:0;
+      transition: display 3s;
+    }
+   
+
+    .language{
+      width: 30%;
+      float: right;
+      text-align: center;
+      height: 60px;
+      line-height: 50px;
+    }
+    .language>a{
+      display: inline-block;
+      color:black;
+      text-decoration:none;
+      letter-spacing: 0.75px;
+          color: #b99a81;
+      font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+    }
+    .menu-item{
+      padding: 10px 0;
+    }
+ 
+/*end menu*/
+/*category*/
+.category{
+      padding: 20px 0;
+      background-color: white;  
+      text-align: center;
+    }
+        .category-carousel .category img {
+  width: 100%;
+}
+.banner {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.banner .block-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.banner .block-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.banner .figure {
+  display: block;
+  background-color: #1fc0a0;
+  overflow: hidden;
+  height: 99%;
+}
+.banner .figure img {
+  width: 101%;
+  /* fix chrome image width bug */
+  vertical-align: top;
+}
+.banner .figcaption {
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition:  all 300ms linear 0s;
+  -moz-transition:  all 300ms linear 0s;
+  -ms-transition:  all 300ms linear 0s;
+  -o-transition:  all 300ms linear 0s;
+  transition:  all 300ms linear 0s;
+  
+}
+.btn--ys{
+  background-color: #1fc0a0;
+   font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+  color: white;
+  transition: all 0.5s;
+  letter-spacing: 0.5px;
+}
+.btn--ys:hover{
+  color:  #1fc0a0;
+  background-color:white;
+}
+.banner__title{
+  display: block;
+      font-size: 2.5em;
+    letter-spacing: 3px;
+    font-weight: 600;
+
+}
+/*end category*/
+
+/*detail product*/
